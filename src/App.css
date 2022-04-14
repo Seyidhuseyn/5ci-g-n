@@ -1,0 +1,37 @@
+:root {
+    --white:#fff;
+    --light-grey:#f4f4f4;
+    --grey:#ccd1d9;
+    --dark-grey:#666;
+    --orange:#f9ab00;
+    --dark:#343a40;
+    --red:#ef4035;
+    --hover-red:#f33501;
+    --black:#000;
+    --transparent-black:#000000b3;
+    --green:#00ff00;
+}
+
+/* NAVBAR */
+
+
+nav {
+    overflow: hidden;
+}
+.logo {
+    width: 14rem;
+}
+nav a.nav-link {
+    font-size: 18px;
+    letter-spacing: 0.0375rem;
+    margin: 0 0.75rem;
+    color: var(--white) !important;
+}
+nav ul li {
+    text-transform: uppercase;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    border-bottom: 1.5px solid var(--orange);
+}
